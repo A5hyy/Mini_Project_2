@@ -1,0 +1,23 @@
+<div>
+  <div class="row">
+    <div class="col-md-11 height-30px">
+      <h5>{{title}} Exercises</h5>
+    </div>
+    <div class="col-md-1 t-a-e">
+      <button
+        (click)="onCancelClick($event)"
+        aria-label="Close"
+        class="btn-close"
+        type="button">
+      </button>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <p>
+      {{content}}
+    </p>
+  </div>
+</div>
